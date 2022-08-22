@@ -1,0 +1,74 @@
+*{ /*É UTILIZADO PARA CRIAR REGRA APRA TODAS AS TAGS POSSIVEIS DENTRO DO PROJETO*/
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(21,8,242);
+    background: linear-gradient(180deg, rgba(21,8,242,1) 47%, rgba(238,239,242,1) 100%);
+    color: white;
+    
+}
+
+.photoleonidas{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+}
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+.social{
+    display: flex; /*COLOCAR CONTEUDO LISTADO EM FORMA HORIZONTAL / UM DO LADO DO OUTRO */
+    /*justify-content: center; /*AJUSTAR O CONTEUDO NO CENTRO, SO FUNCIONA SE HOUVER O DISPLEY ACIMA*/
+    justify-content: space-evenly; /*ESPACAMENTO AO REDOR DO CONTEUDO*/
+    list-style: none; /*RETIRA AS MARCAÇOES DO CONTEUDO*/
+    margin-top: 20PX;
+
+}
+.social img{
+    width: 33px;
+    height: auto;
+}
+.link-list{
+    list-style: none;
+}
+.link-list i{
+    margin: 10px 20px;
+}
+.link-list li a{
+    display: block; /*CRIAR UM BLOCO NO CONTEUDO*/
+    justify-content: space-around;
+    background-color: black;
+    margin: 10px 20px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(21,8,242);
+    box-shadow: 0 0 20px white;
+        
+}
+.link-list li a span{
+    color: blueviolet;
+    display: block;
+    margin-top: 10PX;
+    font-weight: lighter;
+    font-size: smaller;
+}
